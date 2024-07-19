@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      h1 {
+        color: yellow;
+      }
+      h2 {
+        color: green;
+      }
+      span {
+        color: red;
+      }
+      .blue, h4, footer {
+        color: rgb(36, 36, 216);
+      }
+      .green {
+        color: green;
+      }
+      .pink {
+        color: rgb(238, 92, 116);
+      }
+
+    </style>
+    <title>artigo</title>
+  </head>
+  <body>
+    <img src="./img/capaatigo6.png" alt="" />
+    <h1>
+      A Arte de Usar Funções de Ordem Superior em JavaScript para
+      Desenvolvedores
+    </h1>
+    <h2>O que são Funções de Ordem Superior?</h2>
+    <p>
+      Imagina que você tem um brinquedo que pode controlar outros brinquedos. No
+      JavaScript, as funções de ordem superior são como esse brinquedo especial.
+      Elas podem receber outras funções como entrada ou até mesmo devolvê-las
+      como resultado.
+    </p>
+    <h2>Por que isso é importante?</h2>
+    <p>
+      Pense em quando você monta um Lego. Em vez de fazer tudo de uma vez, você
+      pode construir partes menores e depois juntá-las. As funções de ordem
+      superior ajudam a fazer isso com código, tornando tudo mais fácil e
+      organizado.
+    </p>
+    <img src="./img/figura.png" alt="" />
+    <p>
+      Vamos brincar com um exemplo de <span>filter( )</span> ! Imagine que você
+      tem uma caixa de lápis de cor. Cada lápis pode ter uma cor diferente. Se
+      você quer pintar um desenho só com os lápis vermelhos, uma função de ordem
+      superior pode te ajudar a escolher só os lápis vermelhos da caixa.
+    </p>
+    <h3>
+      <p><span class="blue">const</span> lapis =[<span class="green">'vermelho', 'azul', 'verde', 'vermelho'</span>];</p>
+      <p> <span class="blue">const</span> lapisVermelhos = lapis.<span>filter</span>(cor => cor === <span class="green">'vermelho'</span>);</p>
+      <p><span class="pink">console</span>.<span>log</span>(lapisVermelhos); // ['vermelho', 'vermelho']</p>
+    </h3>
+    <img src="./img/figura3.png" alt="" />
+    <p>
+      Nesse exemplo usaremos <span>reduce()</span>: E se você quisesse somar todos os números
+      de uma lista? As funções de ordem superior podem ajudar aqui também! Elas
+      são como super-heróis que tornam tarefas difíceis em algo fácil e
+      divertido.
+    </p>
+    <h3>
+      <p>
+       <span class="blue">const</span> numeros = [<span class="pink">1, 2, 3, 4</span>];
+      </p>
+      <p>
+       <span class="blue">const</span> soma = numeros.<span>reduce</span>((total, numero) => total + numero, 0)
+
+      </p>
+      <p>
+        <span class="pink">console</span>.<span>log</span>(soma); // 10
+      </p>
+    </h3>
+    <h2>
+        Conclusão
+    </h2>
+    <p>
+        Então, lembre-se: funções de ordem superior são como brinquedos mágicos que podem fazer coisas incríveis com outras funções. Elas ajudam a tornar o código mais limpo e fácil de entender, como montar um Lego bem organizado! curtiu esse conteúdo vamos no conecta me siga no <a href="">linkedin</a>
+    </p>
+    <footer>&copy; Sandro Vieira
+    
+        <h4>#javaScript #função #frontend</h4>
+    </footer>
+  </body>
+</html>
